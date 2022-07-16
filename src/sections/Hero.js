@@ -5,7 +5,7 @@ import arrow from "../images/arrowdown.png";
 function Hero ({name}) {
     return (
         <>
-       <div className="container items-center w-full mx-auto flex items-center justify-center py-24">
+       <div className="container items-center min-h-screen w-full mx-auto flex items-center justify-center py-24">
             <div className="m-auto">
                 <div>
                 <img src={images} width="200px" className="border-solid border-2 border-slate-900 rounded-full m-auto"/>

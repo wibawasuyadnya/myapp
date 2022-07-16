@@ -16,17 +16,13 @@ function App() {
   });
   return (
     <>
-    <div className="container mx-auto">
-      <div data-aos="fade-up" data-aos-once="false" data-aos-ondurationchange="1000" className="" >
-       <Hero name={data.hero.name}></Hero>
-      </div>
-      <div className=''>
-        <About desc={data.about.desc}></About>
-      </div>
-      <div className=''>
-        <Tools title={data.tools.title}></Tools>
-      </div>
-    </div>
+    <header/>
+
+    <main>
+      <Hero name={data.hero.name}></Hero>
+      <About desc={data.about.desc}></About>
+      <Tools title={data.tools.title}></Tools>
+    </main>
     </>
   );
 }

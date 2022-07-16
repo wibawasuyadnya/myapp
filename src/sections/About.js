@@ -5,7 +5,7 @@ import images from "../images/about.jpeg";
 function About({desc}) {
     return (
         <>  
-        <div id="about" className="container mx-auto w-full">
+        <div id="about" className="container min-h-screen flex items-center mx-auto w-full">
             <div>
                 <h2 className="text-center text-5xl font-bold tracking-wide font-montserrat">Welcome</h2>
                 <div className="w-9/12 flex m-auto mt-20 pt-14">
