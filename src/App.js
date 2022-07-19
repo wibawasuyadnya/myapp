@@ -19,7 +19,7 @@ function App() {
     <header/>
 
     <main>
-      <Hero name={data.hero.name}></Hero>
+      <Hero name={data.hero.name} desc={data.hero.desc} medsos={data.hero.social}></Hero>
       <About desc={data.about.desc}></About>
       <Tools title={data.tools.title}></Tools>
     </main>
