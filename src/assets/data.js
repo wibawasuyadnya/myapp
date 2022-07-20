@@ -5,12 +5,12 @@ const data = {
         name: "Agus Wibawa",
         desc: "Web Designer | UI & UX Designer",
         social: {
-            Facebook: "https://facebook.com/aguswibawas/",
-            Instagram: "https://instagram.com/justadynamicnerds/",
-            Twitter: "https://twitter.com/justdynamicnerd",
-            Dribbble: "https://dribbble.com/jesuschrist",
-            Github: "https://github.com/wibawasuyadnya",
-            Email: "https://mail.google.com/mail/?view=cm&fs=1&to="
+            facebook: "https://facebook.com/aguswibawas/",
+            instagram: "https://instagram.com/justadynamicnerds/",
+            twitter: "https://twitter.com/justdynamicnerd",
+            dribbble: "https://dribbble.com/jesuschrist",
+            github: "https://github.com/wibawasuyadnya",
+            email: "https://mail.google.com/mail/?view=cm&fs=1&to="
         }
     },
     about : {
