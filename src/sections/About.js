@@ -5,12 +5,12 @@ import images from "../images/about.jpeg";
 function About({desc}) {
     return (
         <>  
-        <div id="about" className="container min-h-screen flex items-center mx-auto w-full">
+        <div id="about" className="container min-h-[350px] mx-auto w-full">
             <div>
-                <h2 className="text-center text-5xl font-bold tracking-wide font-montserrat">Welcome</h2>
-                <div className="w-9/12 flex m-auto mt-20 pt-14">
-                    <img src={images} width="350px" height="200px" className="border-solid border-2 border-slate-900 ml-[55px] rounded-xl"/>
-                    <h2 className="text-2xl pl-[50px] flex items-center tracking-wide font-montserrat">{desc}</h2>
+                <h2 className="text-center text-[40px] text-gray-800 font-bold tracking-wide font-montserrat">Summary</h2>
+                <div className="w-8/12 flex m-auto mt-10">
+                    <img src={images} className="w-[180px] h-[180px] border-solid border-2 border-slate-900 rounded-2xl"/>
+                    <h2 className="text-lg ml-[30px] flex items-center tracking-wide">{desc}</h2>
                 </div>
             </div>
         </div>

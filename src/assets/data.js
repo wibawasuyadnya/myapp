@@ -4,6 +4,8 @@ const data = {
     hero : {
         name: "Agus Wibawa",
         desc: "Web Designer | UI & UX Designer",
+        resume: "https://www.gmail.com",
+        contact: "#contact",
         social: {
             facebook: "https://facebook.com/aguswibawas/",
             instagram: "https://instagram.com/justadynamicnerds/",
@@ -14,11 +16,15 @@ const data = {
         }
     },
     about : {
-        desc: "Hey I’m Agus, I’m Bali based Web Designer,Front-end Developer and UI/UX Designer. I enjoy designing and building a simple, innovative, and minimalist Interface design with the latest technology, knowledge and experience that I have. I also can maintains website and helping existing site for upgrade, I’m open for remote or full-time work and can easily adapt with your workflow and collaborative with team. Contact me for more info :3 "
+        desc: "Hey I’m Agus, I’m Bali based Web Designer,UI/UX Designer. I enjoy designing and building a simple, innovative, and minimalist Interface design with the latest technology, and my experience. I can maintain and helping existing site for upgrade, I’m open for remote or full-time work and can easily adapt with your workflow and collaborative with team. Contact me for more info :3 "
     },
     tools : {
-        title: "Tech that I use"
-    }
+        title: "Tech that I use",
+        skills: [{
+                skillName:"Adobe",
+                skillIcon:""
+            }]  
+    },
 };
 
 
