@@ -8,13 +8,13 @@ function Tools({title, tech}){
         <div>
           <h2 className="text-center text-[40px] font-bold">{title}</h2>
         </div>
-        <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
+        <div className="grid grid-cols-5 sm:flex-row align-center justify-center max-w-4xl mx-auto mt-10">
       {tech.map((skills, index) => {
         return (
           <SkillTech 
           key={index} 
-          skillName={skills.skillName} 
-          skillIcon={skills.skillIcon}
+          sname={skills.skillName} 
+          sicon={skills.skillIcon}
           />
         );
       })}
