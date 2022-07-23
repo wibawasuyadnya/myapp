@@ -3,17 +3,10 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Tools from './sections/Tools.js';
 import data from './assets/data';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import { isCompositeComponent } from 'react-dom/test-utils';
 
 
 function App() {
-  useEffect(() => {
-    Aos.init({
-      once: true,
-    });
-  });
   return (
     <>
     <header/>

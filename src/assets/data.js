@@ -83,7 +83,7 @@ const data = {
                 skillName:"Webflow",
                 skillIcon: <img src={ImageLogo.logoWebflow} className={iconSet}/>
             },
-        ],
+        ]
     },
 };
 
