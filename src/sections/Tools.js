@@ -12,7 +12,8 @@ function Tools({title, tech}){
       {tech.map((skills, index) => {
         return (
           <SkillTech 
-          key={index} 
+          key={index}
+          shref={skills.skillLink} 
           sname={skills.skillName} 
           sicon={skills.skillIcon}
           />

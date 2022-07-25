@@ -25,34 +25,42 @@ const data = {
         skills: [
             {
                 skillName:"Adobe",
+                skillLink:"https://www.adobe.com/",
                 skillIcon: <img src={ImageLogo.logoAdobe} className={iconSet}/>
             },
             {
                 skillName:"CSS",
+                skillLink:"https://developer.mozilla.org/en-US/docs/Web/CSS",
                 skillIcon: <img src={ImageLogo.logoCss} className={iconSet}/>
             },
             {
                 skillName:"Figma",
+                skillLink:"https://www.figma.com/",
                 skillIcon: <img src={ImageLogo.logoFigma} className={iconSet}/>
             },
             {
                 skillName:"Html",
+                skillLink:"https://developer.mozilla.org/en-US/docs/Web/HTML",
                 skillIcon: <img src={ImageLogo.logoHtml5} className={iconSet}/>
             },
             {
                 skillName:"Js",
+                skillLink:"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
                 skillIcon: <img src={ImageLogo.logoJs} className={iconSet}/>
             },
             {
                 skillName:"Npm",
+                skillLink:"npmjs.com",
                 skillIcon: <img src={ImageLogo.logoNpm} className={iconSet}/>
             },
             {
                 skillName:"React",
+                skillLink:"https://reactjs.org/",
                 skillIcon: <img src={ImageLogo.logoReact} className={iconSet}/>
             },
             {
                 skillName:"Git",
+                skillLink:"https://git-scm.com/",
                 skillIcon: <img src={ImageLogo.logoGit} className={iconSet}/>
             },
         ],

@@ -3,7 +3,6 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Tools from './sections/Tools.js';
 import data from './assets/data';
-import Nav from './sections/sidebar/Sidebar';
 
 import { isCompositeComponent } from 'react-dom/test-utils';
 
@@ -12,7 +11,6 @@ function App() {
   return (
     <>
     <header/>
-    <Nav />
     <main>
       <Hero name={data.hero.name} desc={data.hero.desc} medsos={data.hero.social} resume={data.hero.resume} contact={data.hero.contact}></Hero>
       <About desc={data.about.desc}></About>
