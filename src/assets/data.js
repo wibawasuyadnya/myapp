@@ -1,7 +1,7 @@
 import React from "react";
 import ImageLogo from "./image";
 
-const iconSet = "text-5xl mx-auto inline-block";
+const iconSet = "text-5xl mx-auto inline-block w-[60px]";
 const data = {
     hero : {
         name: "Agus Wibawa",
@@ -28,10 +28,6 @@ const data = {
                 skillIcon: <img src={ImageLogo.logoAdobe} className={iconSet}/>
             },
             {
-                skillName:"Angular",
-                skillIcon: <img src={ImageLogo.logoAngular} className={iconSet}/>
-            },
-            {
                 skillName:"CSS",
                 skillIcon: <img src={ImageLogo.logoCss} className={iconSet}/>
             },
@@ -48,10 +44,6 @@ const data = {
                 skillIcon: <img src={ImageLogo.logoJs} className={iconSet}/>
             },
             {
-                skillName:"Nodejs",
-                skillIcon: <img src={ImageLogo.logoNode} className={iconSet}/>
-            },
-            {
                 skillName:"Npm",
                 skillIcon: <img src={ImageLogo.logoNpm} className={iconSet}/>
             },
@@ -60,30 +52,10 @@ const data = {
                 skillIcon: <img src={ImageLogo.logoReact} className={iconSet}/>
             },
             {
-                skillName:"Tailwindcss",
-                skillIcon: <img src={ImageLogo.logoTailwind} className={iconSet}/>
-            },
-            {
-                skillName:"Wordpress",
-                skillIcon: <img src={ImageLogo.logoWp} className={iconSet}/>
-            },
-            {
-                skillName:"jQuery",
-                skillIcon: <img src={ImageLogo.logoJquery} className={iconSet}/>
-            },
-            {
-                skillName:"Elementor",
-                skillIcon: <img src={ImageLogo.logoElementor} className={iconSet}/>
-            },
-            {
                 skillName:"Git",
                 skillIcon: <img src={ImageLogo.logoGit} className={iconSet}/>
             },
-            {
-                skillName:"Webflow",
-                skillIcon: <img src={ImageLogo.logoWebflow} className={iconSet}/>
-            },
-        ]
+        ],
     },
 };
 

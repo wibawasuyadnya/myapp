@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 function Hero ({name, desc, resume, contact, medsos:{github, facebook, instagram, twitter, dribbble, email}}) {
     return (
         <>
-       <div className="container items-center w-full mx-auto min-h-fit py-24">
+       <div className="container items-center w-full mx-auto min-h-fit my-10">
             <div className="m-auto">
                 <div>
                 <img src={images} width="140px" className="border-solid border-2 border-slate-900 rounded-full m-auto"/>
