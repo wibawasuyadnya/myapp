@@ -1,12 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
-      fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"], }, 
       },
       screens: {
         'tablet' : { 'min': '768px' , 'max': '880px' },
@@ -16,3 +15,4 @@ module.exports = {
   },
   plugins: [],
 }
+ode
