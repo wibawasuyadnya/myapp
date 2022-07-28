@@ -50,7 +50,7 @@ const data = {
             },
             {
                 skillName:"Npm",
-                skillLink:"npmjs.com",
+                skillLink:"https://npmjs.com",
                 skillIcon: <img src={ImageLogo.logoNpm} className={iconSet}/>
             },
             {
